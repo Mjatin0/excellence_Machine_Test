@@ -1,0 +1,43 @@
+body {
+    font-family: "Agency FB";
+}
+.form-group{
+    color: floralwhite;
+    text-transform: uppercase;
+}
+#cover {
+    background: #222 url('https://unsplash.it/1920/1080/') center;
+    background-size: cover;
+    height: 100%;
+    text-align: left;
+    display: -o-flex;
+    align-items: center;
+    position: relative;
+}
+
+#cover-caption {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+form:before {
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: -1;
+    border-radius: 10px;
+}
+h1 {
+    color: floralwhite;
+}
+.col-sm-6 {
+    margin-left: 300px;
+    margin-top: 80px;
+}
+button {
+margin-left: 220px;
+}
